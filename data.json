@@ -1,0 +1,315 @@
+[
+    {
+        "Id": "sha256:ced279c643ca2b1d4e5edafb0393e6c0de0b9d720aaea00aa060aebcaa47aa51",
+        "RepoTags": [
+            "oegdataintegration/gtfs-bench:latest"
+        ],
+        "RepoDigests": [
+            "oegdataintegration/gtfs-bench@sha256:d711708a7cc9f618a7d26c2fd6f73d2c62711bc10054b605ac8a5f41b9a6fd34"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2022-02-14T15:56:41.062184494Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US.UTF-8",
+                "LC_ALL=en_US.UTF-8"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "/start.sh"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": {
+                "/output": {}
+            },
+            "WorkingDir": "/repository/gtfs-bench",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 1513631014,
+        "VirtualSize": 1513631014,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/bc74bf63648fe8be8c5f0653ec9bd05933a9ecbf8bdbaca46eec1927e6568adc/diff:/var/lib/docker/overlay2/48f4eb6be537faaf1eb2d01c51e6b8bc4d106507bde4d0e66174c2c3806b5c0a/diff:/var/lib/docker/overlay2/bb9242c371f7329ea7a9c893cc7ece70fa7fc92f4527aed75319e101b4dd0a51/diff:/var/lib/docker/overlay2/71b12d15fc1a08a2e158dfe792c96e51c3e94f1c1905bf2237a944b1fff124a4/diff:/var/lib/docker/overlay2/0709d852f49bafbea682ce989fccc13bd5caf4e35daf48680e83cfc6e01d0e07/diff:/var/lib/docker/overlay2/05be85a54740580289fc7dfb4ca5bde5dd02db4cec29bb182e951a5d219a410b/diff:/var/lib/docker/overlay2/1afdf994f2277537027baeb02fe1d5d05c76baf699113d26e35c24c4908005de/diff:/var/lib/docker/overlay2/7d77641b84f5e7561264cb4dd128d7c137d56dfdcb164ab80882094d84c40048/diff:/var/lib/docker/overlay2/ff1ce7b9f229afca9b7cb6d671f1bc9ede7cdbfa2e7f1c589b35b2167645e4bc/diff:/var/lib/docker/overlay2/6543904829b744821dcac13623d0dcecc6cabec070b1b050d82725ca2fc60437/diff:/var/lib/docker/overlay2/279d1b5fd614826bb9d8284dbc6535e510ee3b998a35c8d109abeb6daed43611/diff:/var/lib/docker/overlay2/d39cb0f62778c2197ffa560977f1d1b843accbff2f14358acdfa6993421d819d/diff",
+                "MergedDir": "/var/lib/docker/overlay2/1e97774804791f779b3e4c7b6152179f98174deec790cb8e108ccd1557b63827/merged",
+                "UpperDir": "/var/lib/docker/overlay2/1e97774804791f779b3e4c7b6152179f98174deec790cb8e108ccd1557b63827/diff",
+                "WorkDir": "/var/lib/docker/overlay2/1e97774804791f779b3e4c7b6152179f98174deec790cb8e108ccd1557b63827/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:1dc52a6b4de8561423dd3ec5a1f7f77f5309fd8cb340f80b8bc3d87fa112003e",
+                "sha256:ede27482b6a3578457fa6f3f9b613b2d469170de6322f71134e1e855206c215f",
+                "sha256:66c13809e87d97dbb5215ee0a7e246623e3f9e9035c31ea578e04143ffa86be5",
+                "sha256:387ee5be5948aaa3864fd17bce71541483ef9194d55884ef79557b01beb16c74",
+                "sha256:ab767c6a91d2e9b7a6eb3d5d43b7549156872538405def718a0a55a0a302dd05",
+                "sha256:a3a48deeda82ab3b8fa53af7f521625ed52421353204aa16c26c9f066c5f9e05",
+                "sha256:d6992d0b442aff303002b510336bbe6b965ba90352b57c2841cb34b822b3186b",
+                "sha256:884681b041fd0b4d214df8e36d46653dfcc0494ae36dd13b055c3f8c7c71458b",
+                "sha256:2c9abf7692076fb4ec1415d4da2b5e70c962d0939423721fcfca8dc7e70f75b5",
+                "sha256:cc28d89f595699f5067e019113a7e007f06ed720cf3f59729173907dd48a1f40",
+                "sha256:59a29afc5778f61b40703d3354a58a714e1970cc36c46bc71c86ad277bd36b19",
+                "sha256:f5ac1c865a133835cdfcdb70e62261f0531abc8bd4a139a6bd3770232e17b678",
+                "sha256:08151712ad9983e51355c37ac4252f9f6f2b6e90a1f86cb3293dd42de6e193ec"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    },
+    {
+        "Id": "sha256:2933adc350f3b62c05a66f700fba68ef93997d67263121250ec7848c50dcf3f5",
+        "RepoTags": [
+            "mysql:8.0"
+        ],
+        "RepoDigests": [
+            "mysql@sha256:b1cc887ed32cc6c2f217b12703bd05f503f2037892c8bb226047fe5dff85a109"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2021-02-09T06:57:45.744032246Z",
+        "Container": "7a1aa96444bbb8862b4141a34100246606b0b54e42c2d330bf46c0b4431b1b98",
+        "ContainerConfig": {
+            "Hostname": "7a1aa96444bb",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3306/tcp": {},
+                "33060/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.12",
+                "MYSQL_MAJOR=8.0",
+                "MYSQL_VERSION=8.0.23-1debian10"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"mysqld\"]"
+            ],
+            "Image": "sha256:f2728f635165a8b6ba7fca9ced2481f9f7aa109d558478b0e3db5e870c91cdac",
+            "Volumes": {
+                "/var/lib/mysql": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "19.03.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3306/tcp": {},
+                "33060/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.12",
+                "MYSQL_MAJOR=8.0",
+                "MYSQL_VERSION=8.0.23-1debian10"
+            ],
+            "Cmd": [
+                "mysqld"
+            ],
+            "Image": "sha256:f2728f635165a8b6ba7fca9ced2481f9f7aa109d558478b0e3db5e870c91cdac",
+            "Volumes": {
+                "/var/lib/mysql": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 546096903,
+        "VirtualSize": 546096903,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/c9d08ff1487b8550051b9311a94c426731d000b5746664fdbca8ee77fbcf20cb/diff:/var/lib/docker/overlay2/02b516f146f39da0ef4ecd156edc4302e8743773ec612460e51fad545ed01af6/diff:/var/lib/docker/overlay2/0409c46af24aad1f93ad47887845d32a8344cc3980dbb5a0359f76f68efe7bfa/diff:/var/lib/docker/overlay2/9428d6439c9273d5f9440a364b4434bd739c2babaeb22ee62ccb9d60814ad735/diff:/var/lib/docker/overlay2/77d2f9a1d659134afa2bd458a2ba1fe6eb985766d54ed82e455807ec303165ee/diff:/var/lib/docker/overlay2/b0302c6ab245f84637fcdf46bb40bcd2d4f879cd3149b090a57f38b03639264f/diff:/var/lib/docker/overlay2/13666bedafc521f6e97fc596cdffa0515e1c7b3442240a74286cf25748c4cf5f/diff:/var/lib/docker/overlay2/39571e09b7110e30912a927993abb32839e5b5393262df56303156eae912553b/diff:/var/lib/docker/overlay2/8c05f8e24f5e9f0727fce4f272a04014357c2700b182482ab5802e4affba1dbd/diff:/var/lib/docker/overlay2/3df25c3d0abd113233a7fd0693567b1da45c47e6075cd33c6be6d8b427ebbe83/diff:/var/lib/docker/overlay2/de69c2aa4f5daa606abeea703ba1aa5556029b547fe3473a4c3c969ee17a2d55/diff",
+                "MergedDir": "/var/lib/docker/overlay2/c48019b942cb227d10b0ff75e9922803879a1d3b448d97e49d74e889f35ce071/merged",
+                "UpperDir": "/var/lib/docker/overlay2/c48019b942cb227d10b0ff75e9922803879a1d3b448d97e49d74e889f35ce071/diff",
+                "WorkDir": "/var/lib/docker/overlay2/c48019b942cb227d10b0ff75e9922803879a1d3b448d97e49d74e889f35ce071/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:9eb82f04c782ef3f5ca25911e60d75e441ce0fe82e49f0dbf02c81a3161d1300",
+                "sha256:6427e36e38734cc5f8172a32837f1a7089fb3e3ae8b5c12f6882cb6466d6b482",
+                "sha256:1a4bac3ca47c45b2341b866d4403690c45c4a87e8cb897afda5dd6be52f37eda",
+                "sha256:7c06655789f2bd431a94e2cf7d363afbe3497ba18ca4565dc772ba82ade0cb74",
+                "sha256:411bb8845b78ec534f51535976d2a0c055c892e04d7f4fa67924c3a00a291f9e",
+                "sha256:902a5f810181e3b8b2f7c5e39013d1e4acceb917f1f778ac199d495abba1e9f3",
+                "sha256:52d9c23a9a201b21e95fed351c1ba1418a54ba1bd2ba26f5238d8bd8f38fd328",
+                "sha256:9ffac285cc4fa861d7843807b42d509e216a8a107f694c4ac68f2a2d670332c7",
+                "sha256:5ba1eb4d2ba5041fcc90b141f7942ff4e59570dddc8dc1786f2fe32d7d19c41d",
+                "sha256:9ba725af2ff003dfa3fa052c2a9d8580f46b78bb603986d3428037c328811a3f",
+                "sha256:7cdc784cbcfc3b3a7070924462e6bb8847823a3d66ac120cfc717ddf913fc4f9",
+                "sha256:9fda8797bc316fb330ab2dee51c30c090043d0f654c7bc6db66901268d77c811"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    },
+    {
+        "Id": "sha256:2ffb3ee9220a5ea52bea41e00ff730b4b023d66fd59f632620ae5049b83af582",
+        "RepoTags": [
+            "kemele/ontario:0.5"
+        ],
+        "RepoDigests": [
+            "kemele/ontario@sha256:81144ccde041b6bca1c6075394fa3a410df1794739d2162ad30582d6f37e03c5"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2020-05-12T12:07:53.92482974Z",
+        "Container": "a9647dbfc1c3dcafd6e434ed87d9b89cf7d583a6dd5831b1dac0f60bd78e5a8c",
+        "ContainerConfig": {
+            "Hostname": "a9647dbfc1c3",
+            "Domainname": "",
+            "User": "root",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"/Ontario/start_sparql_service.sh\"]"
+            ],
+            "Image": "sha256:93e4f842754097dde4a8884769be37c42aa1ee043fad4fd3285413f23470f6bd",
+            "Volumes": null,
+            "WorkingDir": "/Ontario",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "19.03.8",
+        "Author": "Kemele M. Endris <keme686@gmail.com>",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "root",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/Ontario/start_sparql_service.sh"
+            ],
+            "Image": "sha256:93e4f842754097dde4a8884769be37c42aa1ee043fad4fd3285413f23470f6bd",
+            "Volumes": null,
+            "WorkingDir": "/Ontario",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 1534743566,
+        "VirtualSize": 1534743566,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/1cadb41397713d94b052930a7eb8d648e4b665e9c5699eb444cf02107111172f/diff:/var/lib/docker/overlay2/bc458dbe535a1bd020ccdfc73ab3860dd28c0b5cde63e6075c679bc92ecbaae8/diff:/var/lib/docker/overlay2/913695a3d555816913863b97f6f948130f7375b7fb9ffdd22ef3850cc2d554a7/diff:/var/lib/docker/overlay2/ee8243b6914618bf265b383c33fd335e894fcd7f9ec4dce0c2087a715e47c0c8/diff:/var/lib/docker/overlay2/5bae9849a6266566ca405bee7d39a6af7d3606150877539a917f9be5c64d4fa5/diff:/var/lib/docker/overlay2/b0e9a7a51b3cc81ea67e0c35a0a623c999653726d04a8cbf3d871111f5d19e1a/diff:/var/lib/docker/overlay2/a6f495aba814f4fda61d7ea09ef1c7f08f44c79382e66b87819a01f6b781bdea/diff:/var/lib/docker/overlay2/3cd04ac5bc04e9156c590faf853be6a81c0ef61937cbf37a70192247a1e15893/diff:/var/lib/docker/overlay2/12cf4a5239ba0cf6f693ac6dbc0bfddb3a8a74d78c0b88a7ad3973bc578d735b/diff",
+                "MergedDir": "/var/lib/docker/overlay2/629c1bed3b4c114c469fda30e2cf0ab52205348fff64c8d615623a8cb7851fdb/merged",
+                "UpperDir": "/var/lib/docker/overlay2/629c1bed3b4c114c469fda30e2cf0ab52205348fff64c8d615623a8cb7851fdb/diff",
+                "WorkDir": "/var/lib/docker/overlay2/629c1bed3b4c114c469fda30e2cf0ab52205348fff64c8d615623a8cb7851fdb/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:cc4590d6a7187ce8879dd8ea931ffaa18bc52a1c1df702c9d538b2f0c927709d",
+                "sha256:8c98131d2d1d1c8339d268265005394de6cafe887020dcca9ba9d9d07a56280c",
+                "sha256:03c9b9f537a4ae66d7ae7a4361e7f36e6755380107eadff3fbc11cd604c6c9b9",
+                "sha256:1852b2300972ff9f68fd3d34f1f112df3e35757d91dcd40cc8b379bbf2be62d5",
+                "sha256:a53dc453b483811cdcc189772668cf370cddbdff441e8873ce3ca42fd1073805",
+                "sha256:0039285f3df934728718f7106413b8b2ca319d5e0101e6c5ecc1eb3947ca7297",
+                "sha256:0221a2e0ca4671c1a82ff8ae4c39809a0340462549d291b9975b19228b76c9e2",
+                "sha256:f644025bbb84fbdacbaef00cdcf46482db97b7764f87e0c3264b2cb9585e385c",
+                "sha256:fe1c8ab084e0c136a5bc4f688647a73bc6084ec45164fa1b66bf9864b62ad347",
+                "sha256:d045c85d55a2e83c104cfde596f8899b6026ca05666d77a553d329102a557c8d"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
